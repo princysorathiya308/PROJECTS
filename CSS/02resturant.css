@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container1 {
+    background-color: #ebe3cd;
+    padding-bottom: 400px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #12202f;
+    border-radius: 33px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 410px;
+}
+
+.logo {
+    font-size: 25px;
+    margin-right: 305px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.pri {
+
+    margin-left:  30px;
+    cursor: pointer;
+}
+
+.pri:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+.sign {
+    color: #ffffff;
+    margin-left: -60px;
+    cursor: pointer;
+    
+}
+
+.sign:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+.h11 {
+    font-size: 70px;
+    width: 50%;
+}
+
+.h44 {
+    font-size: 30px;
+}
+
+.p11 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.font {
+    /* border: 1px solid black; */
+    color: #12202f;
+    margin-top: 150px;
+    margin-left: 20px;
+    /* width: 60%; */
+    /* position: relative; */
+}
+
+.button1 {
+    border-radius: 28px;
+    background-color: #df581e;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    margin: 30px 0px;
+    cursor: pointer;
+    /* margin-bottom: 100px; */
+}
+
+.menu {
+    text-decoration: none;
+    margin-left: 30px;
+} 
+.img1{
+    position: relative;
+}   
+.i1{
+    right: 50px;
+bottom: -80px;
+    position: absolute;
+
+}
+
+.i2{
+    bottom: -80px;
+    right: 458px;
+    position: absolute;
+
+
+}
+
+.i3 {
+    position: absolute;
+
+    bottom: -267px;
+    right: 2px;
+    width: 70%;
+}
+
+.i4{
+    bottom: 222px;
+    right: 285px;
+    position: absolute;
+
+}
+
+.i5{
+    top: -37px;
+    left: 333px;
+    position: absolute;
+
+}
+.container2{
+    background-color: #ebe3cd;
+    border: 1px solid blue;
+}
+.countainer1sub{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.chek{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px; 
+    background-color: #6bb99c;
+    border: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.mail1{
+    height: 60px;
+    width: 200px;
+border-radius: 20px;
+background-color: #ebe3cd;
+border: 1px solid #12202f;
+font-size: 20px;
+}
+.container2{
+    text-align: center;
+}
+.pera{
+     color: #eaa73b;
+     font-family: "Montserrat";
+     font-size: 25px;
+     font-weight: bold;
+}
+.food{
+    font-size: 50px;
+color: #12202f;
+font-weight: 900;
+font-family: "Playfair Display";
+}

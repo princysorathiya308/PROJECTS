@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <style>
+                *{
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                }
+                nav {
+                        background-color: #080436;
+                }
+
+                ul {
+                list-style: none;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                height: 50px;
+                }
+
+                li {
+                padding: 50px;
+                }
+
+                a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                }
+
+                a.active {
+                color: #ff0000;
+                }
+                .fa-magnifying-glass{
+                        color: white;
+                margin-left: 300px;
+                }
+                .mvv{
+                color: white;
+                }
+
+                .section{
+                        background: linear-gradient(rgba(26, 25, 25, 0.5),rgba(28, 27, 27, 0.5)), url(/image/img1.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                }
+                .part{
+                        padding: 200px 50px;
+                }
+                .btn{
+                        background:  #080436;
+                        color: white;
+                        padding: 10px 50px;
+                        border-radius: 20px;
+                        border: none;
+                        margin-top: 40px;
+                }
+                .hed{
+                        font-size: 90px;
+                        color: #ffffff;
+                        font-weight: 700;
+                        font-family: "Montserrat";
+                        /* text-align: center; */
+                }
+                a:hover{
+                    color: pink;
+                    transition: 1s;
+                }
+                .cnt{
+                        font-size: 30px;
+                        color: #ffffff;
+                        font-weight: 100;
+                        font-family: "Montserrat";
+                        margin-top: 50px;
+                }
+                @media(max-width:500px){
+                    .mv{
+                        display: none;
+                    }
+                   
+                }
+        </style>
+</head>
+<body>
+        <nav>
+                <ul>
+                    <li><h1 class="mvv"> <i class="fa fa-cutlery" aria-hidden="true"></i>YOUR LOGO</h1></li>
+                    <li  class="mv"><a href="#">Home</a></li>
+                    <li  class="mv"><a href="#">About</a></li>
+                    <li  class="mv"><a href="#">Services</a></li>
+                    <li  class="mv"><a href="#">Portfolio</a></li>
+                    <li  class="mv"><a href="#">Contact</a></li>
+                    <li class="mv"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            
+                </ul>
+            </nav>
+        <div class="section">
+                <div class="part">
+                        <h1 class="hed">Title Here</h1>
+                        <p class="cnt">
+                                Lorem ipsum dolor sit amet, consectetur <br> elit. 
+                                Vivamus lacinia odio vitae <br> vestibulum vestibulum. 
+                        </p>
+                        <button class="btn">ORDER NOW</button>
+                </div>
+        </div>
+</body>
+</html>
