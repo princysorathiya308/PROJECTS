@@ -50,7 +50,7 @@ a {
     color: white;
 }
 
-h1 {
+h1{
     margin: 80px;
     font-size: 60px;
 }
@@ -126,7 +126,7 @@ p {
     background-position: center;
 }
 
-.h1 {
+.h1{
     position: absolute;
     top: 80%;
     margin-left: 23px;
@@ -475,8 +475,6 @@ p {
 .figo16,
 .figo17 {
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .figo11 {
@@ -548,8 +546,10 @@ p {
     color: #F6EEDF;
     font-weight: bold;
     font-size: 20px;
-
-
+}
+.word{
+    font-size: 70px;
+    margin: 0 auto;
 }
 
 .pera {
