@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container{
     background-image: url(../IMAGE/banner.jpg);
     border: 1px black solid;
     background-repeat: no-repeat;
